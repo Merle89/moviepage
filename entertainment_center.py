@@ -1,8 +1,9 @@
-import fresh_tomatoes
+#Stores details of movies and displays them on a website.
 
+import fresh_tomatoes
 import media
 
-# Instances of class.Movie for my 6 favourite movies
+#Creates six Movie objects, initialising these objects with title, storyline, poster image link, video trailer link and release date.
 
 lalaland = media.Movie("La La Land",
                         "La La Land ist ein US-amerikanischer Spielfilm von Damien Chazelle aus dem Jahr 2016. Das Filmmusical basiert auf einem Originaldrehbuch des Regisseurs Chazelle und ist in vier Kapitel („Winter“, „Frühling“, „Sommer“, „Herbst“) und einen zeitlich versetzten Epilog („Winter“) gegliedert. Es stellt einen ehrgeizigen Jazzpianisten (gespielt von Ryan Gosling) und eine aufstrebende Schauspielerin (dargestellt von Emma Stone) in den Mittelpunkt, die beide nach beruflichem Erfolg in Los Angeles streben und sich dabei ineinander verlieben. Der Titel des Films nimmt Bezug auf den Spitznamen der Stadt Los Angeles sowie auf eine euphemistische Bezeichnung eines realitätsfernen Seelenzustandes",
@@ -34,8 +35,10 @@ christmas_vacation = media.Movie("Schoene Bescherung",
                      "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/NationalLampoonsChristmasVacationPoster.JPG/220px-NationalLampoonsChristmasVacationPoster.JPG",
                      "https://www.youtube.com/watch?v=NBTTipJX-h4")
 
-# Open them in a HTML browser
+# Store the Movie objects in a list.
 movies = [lalaland, last_dance, love_actually, radio_rock, breakfast, christmas_vacation]
+
+# Open the movie website in the user's browser.
 fresh_tomatoes.open_movies_page(movies)
 
 
