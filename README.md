@@ -10,7 +10,7 @@ This project consists of the following files:
 
 - entertainment_center.py - main Python script to run
 - media.py - contains the class Movie that stores movie details
-- fresh_tomatoes.py - creates the HTML file for the website (Udacity supplied)
+- fresh_tomatoes.py - creates the HTML file for the website (Udacity supplied and slightly adapted)
 
 # How to run the Project
 - for Linux users: apt-get install python2.7
