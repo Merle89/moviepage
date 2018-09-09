@@ -5,7 +5,7 @@ Movie Page is a simple script to store my favourite movies (including movie titl
 Minimun Python 2.x is required to run this project.
 
 # Project contents
-This project consists of the following files:
+This project consists of the following files:<p>
 
 - entertainment_center.py - main Python script to run
 - media.py - contains the class Movie that stores movie details
@@ -13,7 +13,7 @@ This project consists of the following files:
 - README.md
 
 # How to run the Project
-Install Python: https://www.python.org/downloads/
+Install Python: https://www.python.org/downloads/ <p>
 Copy the codes from the documents, save them and run the program. A new browser tab should open with the Movie Trailer Website running.
 
 
