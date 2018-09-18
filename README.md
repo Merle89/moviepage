@@ -13,7 +13,9 @@ This project consists of the following files:<p>
 - README.md
 
 # How to run the Project
-Install Python: https://www.python.org/downloads/ <p>
-Copy the codes from the documents, save them and run the program. A new browser tab should open with the Movie Trailer Website running.
-
+1. Install Python: https://www.python.org/downloads/ <br>
+2. Copy the codes from the documents (media.py and entertainment_center.py as well as fresh_tomatoes.py)
+3. Save them in the same folder on your computer
+4. Run the program entertainment_center.py
+5. A new browser tab should open with the Movie Trailer Website running.
 
